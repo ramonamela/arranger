@@ -9,7 +9,7 @@ class DataTableWithToolbar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      pageSize: 20,
+      pageSize: 25,
       sort: props.config.defaultSorted || [],
     };
     props.onSortedChange?.(props.config.defaultSorted);
